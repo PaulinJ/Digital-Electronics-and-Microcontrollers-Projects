@@ -28,10 +28,6 @@ The implementation is designed for **educational demonstrations**, and **embedde
 ## ⚙️ System Constraints
 
 - **Hardware:** Standard Arduino educational kit only
-- **Sensors:**
-  - Analogue temperature sensor
-  - Phototransistor
-  - IR LED
 - **No additional components permitted**
 - **Software-based solutions required** for safety and reliability
 

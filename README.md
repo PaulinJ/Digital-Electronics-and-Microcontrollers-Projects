@@ -1,7 +1,5 @@
 Pharmaceutical Sterilisation Line Monitoring System
-
 Arduino-Based Educational Simulator
-
 📌 Overview
 
 This repository contains a proof-of-concept embedded systems solution for a Pharmaceutical Sterilisation Autoclave Monitoring System, developed using only standard Arduino educational kit components.
@@ -34,56 +32,70 @@ Preserve system data during unexpected resets
 
 Hardware: Standard Arduino educational kit only
 
-Sensors: Analogue temperature sensor, phototransistor, IR LED
+Sensors:
+
+Analogue temperature sensor
+
+Phototransistor
+
+IR LED
 
 No additional components permitted
 
 Software-based solutions required for safety and reliability
 
-Program 1:
+🧪 Program 1: Temperature Sensor Calibration
+
 Problem:
 The analogue temperature sensor exhibited ±5°C drift, exceeding the acceptable ±2°C accuracy requirement.
 
-🔹 Solution
+Solution:
+
 Designed a two-point calibration procedure using reference temperatures
 
-Implemented a linear calibration model using software
+Implemented a linear calibration model in software
 
-No additional sensors or hardware used
+Achieved improved accuracy without additional sensors or hardware
 
-Program 2:
-🔹 Problem:
-The door lock failed to engage during the STERILIZING state, creating a safety risk.
+🔒 Program 2: Door Safety Interlocks
 
-🔹 Solution
+Problem:
+The door lock failed to engage during the STERILIZING state, creating a potential safety risk.
+
+Solution:
+
 Developed a systematic troubleshooting procedure
 
 Implemented software-enforced safety interlocks
 
-Prevented door unlocking during unsafe conditions
+Prevented door unlocking during unsafe operating conditions
 
-Program 3
-🔹 Problem:
-The phototransistor-based pump monitor generated frequent false alarms, reducing operator trust.
+🚨 Program 3: Pump Fault Detection
 
-🔹 Solution
+Problem:
+The phototransistor-based pump monitoring system generated frequent false alarms, reducing operator trust.
+
+Solution:
+
 Identified root causes of false triggers
 
 Introduced:
 
-   - Moving average filtering
+Moving average filtering
 
-   - Adaptive (dynamic) thresholds
+Adaptive (dynamic) thresholds
 
 Debouncing logic
 
-Improved reliability using signal processing only
+Improved fault detection reliability using signal processing only
 
-Program 4:
+🔁 Program 4: System Resilience and Data Integrity
+
 Problem:
 Unexpected resets during long sterilisation cycles caused loss of critical process data.
 
-🔹 Solution
+Solution:
+
 Implemented:
 
 Watchdog timer recovery
@@ -92,7 +104,7 @@ Circular buffer data logging
 
 Power stability monitoring
 
-Ensured graceful recovery after resets
+Ensured graceful system recovery after resets
 
 🧠 Engineering Concepts Demonstrated
 
@@ -110,11 +122,10 @@ Fault-tolerant system design
 
 🛠 Technologies Used
 
-Arduino (C/C++) - simulated on Tinkercad
+Arduino (C/C++) – simulated on Tinkercad
 
 Analogue sensor processing
 
 Finite State Machines (FSM)
 
 Embedded software safety principles
-

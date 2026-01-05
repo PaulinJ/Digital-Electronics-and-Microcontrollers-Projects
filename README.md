@@ -43,11 +43,10 @@ The analogue temperature sensor exhibited **±5°C drift**, exceeding the accept
 - Implemented a **linear calibration model** in software
 - Achieved improved accuracy without additional sensors or hardware
 
-<img width="563" height="212" alt="image" src="https://github.com/user-attachments/assets/09069c87-0699-4596-9c53-989540eed7de" />
 ## Schematic 
 <img width="940" height="663" alt="image" src="https://github.com/user-attachments/assets/cd1a97a4-b791-4ce1-8fad-58672534ac3d" />
-
-
+## LIVE DEMO: 
+https://www.tinkercad.com/things/23s6PqrrBRQ-final-12?sharecode=R7GeWYsxr6MzOKsM5Xoi6LHZ-vfSHMAcRhSu_ClY1kk 
 
 ---
 
@@ -60,6 +59,12 @@ The door lock failed to engage during the **STERILIZING** state, creating a pote
 - Developed a **systematic troubleshooting procedure**
 - Implemented **software-enforced safety interlocks**
 - Prevented door unlocking during unsafe operating conditions
+
+## Schematic
+<img width="1142" height="844" alt="image" src="https://github.com/user-attachments/assets/dacd83c9-584b-4503-ad64-3f012775613b" />
+
+## LIVE DEMO: 
+https://www.tinkercad.com/things/23s6PqrrBRQ-final-12?sharecode=R7GeWYsxr6MzOKsM5Xoi6LHZ-vfSHMAcRhSu_ClY1kk 
 
 ---
 
@@ -76,6 +81,13 @@ The phototransistor-based pump monitoring system generated **frequent false alar
   - Debouncing logic
 - Improved fault detection reliability using **signal processing only**
 
+## Schematic
+<img width="1307" height="829" alt="image" src="https://github.com/user-attachments/assets/a25c2575-8cbf-417f-bf81-893b84d163a3" />
+
+
+## LIVE DEMO: 
+https://www.tinkercad.com/things/5aLqi4kpYl0-final-q33?sharecode=iAC6b_Og4_J97zzOsQw6rlqzpKbmRIZ7Qy6HRRbSBAU 
+
 ---
 
 ## 🔁 Program 4: System Resilience and Data Integrity
@@ -89,6 +101,14 @@ Unexpected resets during long sterilisation cycles caused **loss of critical pro
   - Circular buffer data logging
   - Power stability monitoring
 - Ensured **graceful system recovery** after resets
+
+## Schematic
+<img width="1389" height="835" alt="image" src="https://github.com/user-attachments/assets/e073ca14-9cbb-4d31-8079-5cbeb13db5d3" />
+
+
+## LIVE DEMO: 
+https://www.tinkercad.com/things/fBEfJOQi2vx-final-q42-?sharecode=jEcAuoFVZ_YcAPXUzP8KjWqUQPUhosl-kw9u_JcZINc 
+
 
 ---
 

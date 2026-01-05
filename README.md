@@ -43,6 +43,12 @@ The analogue temperature sensor exhibited **±5°C drift**, exceeding the accept
 - Implemented a **linear calibration model** in software
 - Achieved improved accuracy without additional sensors or hardware
 
+<img width="563" height="212" alt="image" src="https://github.com/user-attachments/assets/09069c87-0699-4596-9c53-989540eed7de" />
+## Schematic 
+<img width="940" height="663" alt="image" src="https://github.com/user-attachments/assets/cd1a97a4-b791-4ce1-8fad-58672534ac3d" />
+
+
+
 ---
 
 ## 🔒 Program 2: Door Safety Interlocks
